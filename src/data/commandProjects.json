@@ -1,0 +1,14 @@
+[
+  {
+    "id": "id-1",
+    "label": "BarberShop",
+    "link": "https://ivan-vitenko.github.io/final-project-group-8/",
+    "tech": "HTML5, CSS3"
+  },
+  {
+    "id": "id-2",
+    "label": "Filmoteka",
+    "link": "https://makscap.github.io/Filmoteka/",
+    "tech": "JavaScript"
+  }
+]

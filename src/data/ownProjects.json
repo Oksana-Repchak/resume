@@ -1,0 +1,32 @@
+[
+  {
+    "id": "id-1",
+    "label": "Web Studio",
+    "link": "https://oksana-repchak.github.io/goit-markup-hw-08/",
+    "tech": "HTML5, CSS3"
+  },
+  {
+    "id": "id-7",
+    "label": "Movies",
+    "link": "https://orv-goit-react-hw-04-movies.netlify.app/",
+    "tech": "React"
+  },
+  {
+    "id": "id-8",
+    "label": "Phonebook",
+    "link": "https://oksana-repchak.github.io/goit-react-hw-08-phonebook/",
+    "tech": "React"
+  },
+  {
+    "id": "id-4",
+    "label": "Search for countries",
+    "link": "https://oksana-repchak.github.io/goit-js-hw-12-countries/",
+    "tech": "JavaScript"
+  },
+  {
+    "id": "id-5",
+    "label": "Image Finder",
+    "link": "https://oksana-repchak.github.io/goit-react-hw-03-image-finder/",
+    "tech": "React"
+  }
+]

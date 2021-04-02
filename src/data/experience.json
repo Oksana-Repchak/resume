@@ -1,0 +1,77 @@
+[
+  {
+    "id": "id-1",
+    "profession": "Full Stack Web Developer - student",
+    "company": "GoIT",
+    "time": "April 2020 - up to now",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Experience with code versioning tools (such as Git)."
+      },
+      {
+        "id": "2",
+        "duty": "The layout of the web-pages with clean cross-browser valid code using Figma."
+      },
+      {
+        "id": "3",
+        "duty": "Experience in web application development using JavaScript."
+      },
+      {
+        "id": "4",
+        "duty": "Experience with common front-end development tools such as Babel, Webpack, NPM, etc."
+      },
+      {
+        "id": "5",
+        "duty": "Experience with REST APIs."
+      },
+      {
+        "id": "6",
+        "duty": "Developing new user-facing features using React.js."
+      },
+      {
+        "id": "7",
+        "duty": "Experience in creating a REST API for working with a collection."
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "profession": "Teacher",
+    "company": "School",
+    "time": "September 2014 - November 2015",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Conducting training sessions on the subject of computer science and mathematics."
+      },
+      {
+        "id": "2",
+        "duty": "Computer setup and software installation."
+      }
+    ]
+  },
+  {
+    "id": "id-3",
+    "profession": "Office Administrator",
+    "company": "Photo Studio",
+    "time": "February 2013 - August 2014",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Customer service."
+      },
+      {
+        "id": "2",
+        "duty": "Meeting planning."
+      },
+      {
+        "id": "3",
+        "duty": "Management simple accounting."
+      }
+    ]
+  }
+]

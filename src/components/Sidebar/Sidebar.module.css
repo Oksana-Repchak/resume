@@ -1,0 +1,21 @@
+.sidebar {
+  padding: 50px;
+  background: #1e2939;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
