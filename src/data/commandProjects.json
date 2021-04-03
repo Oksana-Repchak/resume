@@ -3,12 +3,14 @@
     "id": "id-1",
     "label": "BarberShop",
     "link": "https://ivan-vitenko.github.io/final-project-group-8/",
-    "tech": "HTML5, CSS3"
+    "tech": "HTML5, CSS3",
+    "text": "About project: mobile-first web page of the hair salon for men."
   },
   {
     "id": "id-2",
     "label": "Filmoteka",
     "link": "https://makscap.github.io/Filmoteka/",
-    "tech": "JavaScript"
+    "tech": "JavaScript",
+    "text": "About project: a web page to searching for movies by keyword, with the ability to add movies to the library."
   }
 ]

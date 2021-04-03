@@ -1,6 +1,6 @@
 import s from './Projects.module.css';
 
-function Projects({ label, link, tech }) {
+function Projects({ label, link, tech, text }) {
   return (
     <li className={s.item}>
       <div className={s.flex}>
@@ -10,6 +10,7 @@ function Projects({ label, link, tech }) {
         <span>
           <b>[</b> <span className={s.name}>{tech}</span> <b>]</b>
         </span>
+        <p className={s.text}>{text}</p>
       </div>
     </li>
   );

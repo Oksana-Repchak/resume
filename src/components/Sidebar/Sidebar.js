@@ -56,6 +56,7 @@ Sidebar.propTypes = {
   contacts: PropTypes.arrayOf(PropTypes.object),
   techSkills: PropTypes.arrayOf(PropTypes.object),
   softSkills: PropTypes.arrayOf(PropTypes.object),
+  Languages: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default Sidebar;
