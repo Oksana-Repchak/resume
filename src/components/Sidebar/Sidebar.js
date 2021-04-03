@@ -1,14 +1,15 @@
 import Contacts from '../Contacts';
 import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
+import Languages from '../Languages';
 import PropTypes from 'prop-types';
 import s from './Sidebar.module.css';
 import myPhoto from '../../img/photo.jpeg';
 
-function Sidebar({ contacts, techSkills, softSkills }) {
+function Sidebar({ contacts, techSkills, softSkills, languages }) {
   return (
     <aside className={s.sidebar}>
-      <img src={myPhoto} alt="Yermakova Anastasiia" className={s.photo} />
+      <img src={myPhoto} alt="Repchak Oksana" className={s.photo} />
       <div className={s.section}>
         <h3 className={s.title}>Contacts</h3>
         <ul>
@@ -36,6 +37,14 @@ function Sidebar({ contacts, techSkills, softSkills }) {
         <ul>
           {softSkills.map(({ id, label }) => (
             <SoftSkills key={id} label={label} />
+          ))}
+        </ul>
+      </div>
+      <div className={s.section}>
+        <h3 className={s.title}>Languages</h3>
+        <ul>
+          {languages.map(({ id, label }) => (
+            <Languages key={id} label={label} />
           ))}
         </ul>
       </div>
