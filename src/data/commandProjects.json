@@ -10,7 +10,7 @@
     "id": "id-2",
     "label": "Filmoteka",
     "link": "https://makscap.github.io/Filmoteka/",
-    "tech": "JavaScript",
+    "tech": "HTML5, CSS3, JavaScript",
     "text": "About project: a web page to searching for movies by keyword, with the ability to add movies to the library."
   }
 ]

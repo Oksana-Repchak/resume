@@ -3,7 +3,7 @@
     "id": "id-1",
     "profession": "Full Stack Web Developer - student",
     "company": "GoIT",
-    "time": "April 2020 - up to now",
+    "time": "April 2020 - April 2021",
     "country": "Ukraine",
     "duties": [
       {
@@ -29,10 +29,6 @@
       {
         "id": "6",
         "duty": "Developing new user-facing features using React.js."
-      },
-      {
-        "id": "7",
-        "duty": "Experience in creating a REST API for working with a collection."
       }
     ]
   },
