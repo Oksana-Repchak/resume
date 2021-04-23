@@ -4,7 +4,7 @@ function Experience({ profession, company, time, country, duties }) {
   return (
     <li className={s.item}>
       <h4 className={s.title}>
-        {profession} <span className={s.company}>{company}</span>
+        {profession} {company}
       </h4>
       <span className={s.time}>
         {time}

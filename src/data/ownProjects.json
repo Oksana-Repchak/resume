@@ -7,21 +7,14 @@
     "text": "About project: mobile-first adaptive landing page to web studio, profile page."
   },
   {
-    "id": "id-7",
+    "id": "id-2",
     "label": "Movies",
     "link": "https://orv-goit-react-hw-04-movies.netlify.app/",
     "tech": "React",
     "text": "About project: Created basic routing for movie search and storage application."
   },
   {
-    "id": "id-8",
-    "label": "Phonebook",
-    "link": "https://oksana-repchak.github.io/goit-react-hw-08-phonebook/",
-    "tech": "React",
-    "text": "About project: application of the phone book with authorization, the ability to add and delete new contacts."
-  },
-  {
-    "id": "id-5",
+    "id": "id-3",
     "label": "Image Finder",
     "link": "https://oksana-repchak.github.io/goit-react-hw-03-image-finder/",
     "tech": "React",
@@ -29,9 +22,9 @@
   },
   {
     "id": "id-4",
-    "label": "Search for countries",
-    "link": "https://oksana-repchak.github.io/goit-js-hw-12-countries/",
-    "tech": "JavaScript",
-    "text": "About project: a small application for searching data about a country by its partial or full name. Used by Rest Countries API."
+    "label": "Phonebook",
+    "link": "https://oksana-repchak.github.io/goit-react-hw-08-phonebook/",
+    "tech": "React",
+    "text": "About project: application of the phone book with authorization, the ability to add and delete new contacts."
   }
 ]

@@ -23,10 +23,6 @@
         "duty": "Experience with common front-end development tools such as Babel, Webpack, NPM, etc."
       },
       {
-        "id": "5",
-        "duty": "Experience with REST APIs."
-      },
-      {
         "id": "6",
         "duty": "Developing new user-facing features using React.js."
       }
@@ -36,7 +32,7 @@
     "id": "id-2",
     "profession": "Teacher",
     "company": "School",
-    "time": "September 2014 - November 2015",
+    "time": "September 2014 - April 2021",
     "country": "Ukraine",
     "duties": [
       {
