@@ -1,29 +1,44 @@
-.university {
-  margin-top: 25px;
-  margin-bottom: 15px;
+.item {
+  list-style: none;
+}
 
-  color: var(--accentColor);
-  font-size: 16px;
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.university {
+  margin-bottom: 10px;
+
   font-weight: 700;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accentColor);
 }
 
 .education {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
-  font-size: 14px;
   font-weight: 700;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .time {
-  color: var(--secondaryTextColor);
   font-size: 12px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 2;
+  color: var(--secondaryTextColor);
 }
 
 .divider {
   color: #000000;
+}
+
+.list {
+  margin-top: 10px;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  list-style: inside;
+  color: var(--primaryTextColor);
 }

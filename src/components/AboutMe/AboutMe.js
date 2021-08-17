@@ -4,7 +4,7 @@ import Education from '../Education';
 import PropTypes from 'prop-types';
 import s from './AboutMe.module.css';
 
-function AboutMe({ commandProjects, ownProjects, experience }) {
+function AboutMe({ commandProjects, ownProjects, experience, education }) {
   return (
     <div className={s.container}>
       <div className={s.section}>
@@ -63,7 +63,17 @@ function AboutMe({ commandProjects, ownProjects, experience }) {
       </div>
       <div className={s.section}>
         <h3 className={s.title}>Education</h3>
-        <Education />
+        <ul>
+          {education.map(({ id, university, label, time, experience }) => (
+            <Education
+              key={id}
+              university={university}
+              label={label}
+              time={time}
+              experience={experience}
+            />
+          ))}
+        </ul>
       </div>
     </div>
   );
@@ -73,6 +83,7 @@ AboutMe.propTypes = {
   commandProjects: PropTypes.arrayOf(PropTypes.object),
   ownProjects: PropTypes.arrayOf(PropTypes.object),
   experience: PropTypes.arrayOf(PropTypes.object),
+  education: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default AboutMe;
